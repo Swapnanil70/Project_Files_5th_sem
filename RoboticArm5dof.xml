@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/03/20||19:31:20" using="Simscape Multibody Link Version 7.2" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Robotic Arm" uid="Robotic Arm" version="793">
+<AssemblyFile name="Robotic Arm.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="SERVO-1" uid="SERVO-1" entityUid="SERVO">
+<Transform>
+<Rotation>-2.9295347362252967e-16 0 1 1 0 2.9295347362252967e-16 0 1 0</Rotation>
+<Translation>-0.052063651953825375 0.019453297353696674 0.019552168190960513</Translation>
+</Transform>
+<Instance name="Cuerpo-1" uid="Cuerpo-1" grounded="true" entityUid="Cuerpo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0019502443900001228 -0.0050521681909718869 0.054699999999999992</Translation>
+</Transform>
+</Instance>
+<Instance name="Estrella-1" uid="Estrella-1" entityUid="Estrella*:*Predeterminado">
+<Transform>
+<Rotation>0.85179411301586705 0 0.52387669258281822 0 -1 0 0.52387669258281822 0 -0.85179411301586705</Rotation>
+<Translation>0.0081497556099998543 0.024197831809028077 0.054700000000000019</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SERVO-4" uid="SERVO-4" entityUid="SERVO">
+<Transform>
+<Rotation>-0.96213955880860413 0 0.27255727723835321 0.27255727723835321 5.9990421499273476e-16 0.96213955880860413 -1.286358180522823e-16 1 -5.8707032830924195e-16</Rotation>
+<Translation>0.03485941919194837 0.036637302373837874 0.019552168190960555</Translation>
+</Transform>
+<Instance name="Estrella-1" uid="Estrella-1" entityUid="Estrella*:*Predeterminado">
+<Transform>
+<Rotation>-0.27187980566047787 3.188504318586805e-16 0.96233121703185986 0 -1 3.0783008153265281e-16 0.96233121703185986 0 0.27187980566047787</Rotation>
+<Translation>0.0081497556099876852 0.024197831809013037 0.054700000000015903</Translation>
+</Transform>
+</Instance>
+<Instance name="Cuerpo-1" uid="Cuerpo-1" grounded="true" entityUid="Cuerpo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0019502443900001228 -0.0050521681909718869 0.054699999999999985</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Antebrazo2-2" uid="Antebrazo2-2" entityUid="Antebrazo2*:*Default">
+<Transform>
+<Rotation>-0.96213955880860258 -0.27255727723835965 0 0.27255727723835965 -0.96213955880860258 6.0009875354256099e-16 -1.4310707389757424e-16 5.8317306880332434e-16 1</Rotation>
+<Translation>-0.0059874500387832163 0.10506096384635913 -0.014000000000011413</Translation>
+</Transform>
+</Instance>
+<Instance name="base circle-3" uid="base circle-3" entityUid="base circle*:*Default">
+<Transform>
+<Rotation>-0.0062498779332637068 0.99998046932218598 0 1.2246228809652849e-16 0 -1 -0.99998046932218598 -0.0062498779332637068 -1.2246467991473544e-16</Rotation>
+<Translation>0.0024328363997872787 -0.022496947036303422 0.005375637188352312</Translation>
+</Transform>
+</Instance>
+<Instance name="Angulo-4" uid="Angulo-4" entityUid="Angulo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022637129288545381 -0.012496947036303423 -0.04000000000001136</Translation>
+</Transform>
+</Instance>
+<Instance name="Gripper-1" uid="Gripper-1" entityUid="Gripper" rigid="true">
+<Transform>
+<Rotation>0.0514027748929759 -0.2676662550806323 0.96213955880860225 0.1814541283145214 -0.94487402861017888 -0.27255727723835965 0.98205506671006959 0.18859439532785893 1.7347234759768071e-16</Rotation>
+<Translation>-0.16327135631320241 0.15283415831528779 -0.010090542660895077</Translation>
+</Transform>
+<Instance name="Gear 11-1" uid="Gear 11-1" entityUid="Gear 11*:*Default">
+<Transform>
+<Rotation>0.6100485915028484 -4.5290428214354673e-16 0.79236400473859925 -3.3306690738754706e-16 1 8.2801752218410523e-16 -0.79236400473859925 -7.690411517315887e-16 0.6100485915028484</Rotation>
+<Translation>0.016715679280929093 -0.0044143536094310709 0.0163923820339823</Translation>
+</Transform>
+</Instance>
+<Instance name="Gear 21-1" uid="Gear 21-1" entityUid="Gear 21*:*Default">
+<Transform>
+<Rotation>0.26309277767716666 0 -0.96477053765862542 0 0.99999999999999989 0 0.96477053765862519 0 0.2630927776771666</Rotation>
+<Translation>-0.01379077502463651 -0.0044143536094310987 0.034150585632617997</Translation>
+</Transform>
+</Instance>
+<Instance name="grip3-1" uid="grip3-1" grounded="true" entityUid="grip3*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0029496807592809451 0.0010856463905689062 0.061999999999994088</Translation>
+</Transform>
+</Instance>
+<Instance name="grip3-2" uid="grip3-2" entityUid="grip3*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0029496807592809485 0.0040856463905688811 0.061999999999994088</Translation>
+</Transform>
+</Instance>
+<Instance name="grip51-1" uid="grip51-1" entityUid="grip51*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.99999999999999989 0 0 0 -0.99999999999999989</Rotation>
+<Translation>-0.0029496807592809503 0.0075856463905688981 0.054999999999994081</Translation>
+</Transform>
+</Instance>
+<Instance name="grip51-2" uid="grip51-2" entityUid="grip51*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 -6.1354675662423243e-16 0 -0.99999999999999989 0 -5.9985782544130954e-16 0 -1</Rotation>
+<Translation>-0.0029496807592809416 -0.0024143536094310969 0.054999999999994081</Translation>
+</Transform>
+</Instance>
+<Instance name="pin1-6" uid="pin1-6" entityUid="pin1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.029461825577307334 0.0025856463905689075 -0.00016300005370054049</Translation>
+</Transform>
+</Instance>
+<Instance name="grip41-1" uid="grip41-1" entityUid="grip41*:*Default">
+<Transform>
+<Rotation>1.3877787807814457e-16 0.92702481088712929 0.37499999999957584 -1 0 1.2490009027033011e-16 1.8932869242374257e-16 -0.37499999999957573 0.92702481088712929</Rotation>
+<Translation>0.026701701522869662 0.0025856463905688659 0.006347124000746468</Translation>
+</Transform>
+</Instance>
+<Instance name="grip11-1" uid="grip11-1" entityUid="grip11*:*Default">
+<Transform>
+<Rotation>0.61226773324339223 0 -0.79065050612074994 0 0.99999999999999989 0 0.79065050612075005 0 0.61226773324339212</Rotation>
+<Translation>-0.035429980489826263 0.0065856463905688972 -0.00010988159654745644</Translation>
+</Transform>
+</Instance>
+<Instance name="grip11-6" uid="grip11-6" entityUid="grip11*:*Default">
+<Transform>
+<Rotation>0.61226773324339245 0 -0.79065050612074983 0 0.99999999999999989 0 0.79065050612074983 0 0.61226773324339234</Rotation>
+<Translation>-0.027179980489826276 0.006585646390568925 -0.020504427436060513</Translation>
+</Transform>
+</Instance>
+<Instance name="pin1-1" uid="pin1-1" entityUid="pin1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.027179980489826148 0.0025856463905688937 -0.020504427436060235</Translation>
+</Transform>
+</Instance>
+<Instance name="pin1-7" uid="pin1-7" entityUid="pin1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0023003192407190527 0.0025856463905688937 0.0040057382536829722</Translation>
+</Transform>
+</Instance>
+<Instance name="pin2-1" uid="pin2-1" entityUid="pin2*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 0 0.99999999999999989 0 -0.99999999999999989 0</Rotation>
+<Translation>-0.012849680759280949 0.0025856463905688659 0.074499999999994085</Translation>
+</Transform>
+</Instance>
+<Instance name="pin1-2" uid="pin1-2" entityUid="pin1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.035429980489826152 0.0025856463905689075 -0.00010988159654715113</Translation>
+</Transform>
+</Instance>
+<Instance name="grip11-2" uid="grip11-2" entityUid="grip11*:*Default">
+<Transform>
+<Rotation>0.61004859150284751 2.3348816001454508e-16 0.79236400473859991 2.081668171172169e-16 1 -4.5494246512807729e-16 -0.79236400473859991 4.4248090293090248e-16 0.61004859150284751</Rotation>
+<Translation>0.010550319240719155 0.0065856463905688972 0.024400284093196001</Translation>
+</Transform>
+</Instance>
+<Instance name="pin1-5" uid="pin1-5" entityUid="pin1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.021211825577307327 0.0025856463905689214 -0.020557545893213625</Translation>
+</Transform>
+</Instance>
+<Instance name="grip11-4" uid="grip11-4" entityUid="grip11*:*Default">
+<Transform>
+<Rotation>0.61004859150267843 0 0.79236400473872992 0 1 0 -0.79236400473872981 0 0.61004859150267832</Rotation>
+<Translation>0.0023003192407199235 -0.0044143536094311125 0.0040057382536824726</Translation>
+</Transform>
+</Instance>
+<Instance name="grip11-5" uid="grip11-5" entityUid="grip11*:*Default">
+<Transform>
+<Rotation>0.61226773324339134 0 -0.79065050612075083 0 0.99999999999999989 0 0.79065050612075061 0 0.61226773324339134</Rotation>
+<Translation>-0.027179980489826092 -0.0044143536094310848 -0.020504427436060318</Translation>
+</Transform>
+</Instance>
+<Instance name="grip41-2" uid="grip41-2" entityUid="grip41*:*Default">
+<Transform>
+<Rotation>0 -0.92702481088695832 -0.37499999999999878 0.99999999999999989 0 0 0 -0.37499999999999883 0.92702481088695821</Rotation>
+<Translation>-0.032669856435391324 -0.00041435360943109512 0.0064002424578876171</Translation>
+</Transform>
+</Instance>
+<Instance name="grip41-4" uid="grip41-4" entityUid="grip41*:*Default">
+<Transform>
+<Rotation>1.3877787807814457e-16 0.92702481088712951 0.37499999999957595 -1 0 1.1102230246251565e-16 1.8932869242374257e-16 -0.37499999999957578 0.92702481088712951</Rotation>
+<Translation>0.026701701522869669 0.0055856463905688547 0.0063471240007464957</Translation>
+</Transform>
+</Instance>
+<Instance name="grip11-3" uid="grip11-3" entityUid="grip11*:*Default">
+<Transform>
+<Rotation>0.61004859150267765 -7.2164496600635175e-16 0.7923640047387307 1.609823385706477e-15 1 -4.163336342344337e-16 -0.79236400473873048 1.5315169957452499e-15 0.61004859150267754</Rotation>
+<Translation>0.0023003192407199148 0.0065856463905688972 0.0040057382536824726</Translation>
+</Transform>
+</Instance>
+<Instance name="pin1-3" uid="pin1-3" entityUid="pin1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0081996807592809445 0.0025856463905689075 0.0040057382536829722</Translation>
+</Transform>
+</Instance>
+<Instance name="pin1-8" uid="pin1-8" entityUid="pin1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.010550319240719058 0.0025856463905688798 0.024400284093196029</Translation>
+</Transform>
+</Instance>
+<Instance name="pin2-2" uid="pin2-2" entityUid="pin2*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 0 0.99999999999999989 0 -0.99999999999999989 0</Rotation>
+<Translation>0.0069503192407190592 0.0025856463905689075 0.074499999999994085</Translation>
+</Transform>
+</Instance>
+<Instance name="grip41-3" uid="grip41-3" entityUid="grip41*:*Default">
+<Transform>
+<Rotation>-9.1593399531575415e-16 -0.92702481088695809 -0.37499999999999906 0.99999999999999989 -7.9519170818109659e-16 -4.7672413978745654e-16 1.4373821496380425e-16 -0.37499999999999911 0.92702481088695798</Rotation>
+<Translation>-0.032669856435391331 0.0025856463905688659 0.0064002424578876171</Translation>
+</Transform>
+</Instance>
+<Instance name="pin1-4" uid="pin1-4" entityUid="pin1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.016449680759280945 0.0025856463905688937 0.024400284093196029</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Angulo-1" uid="Angulo-1" grounded="true" entityUid="Angulo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.017363651953825374 -0.012496947036303423 0.024999999999988639</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-2" uid="SERVO-2" entityUid="SERVO">
+<Transform>
+<Rotation>-2.8151109617030997e-16 0 1 1 2.4781763942525816e-16 2.8151109617030997e-16 -2.4781763942525816e-16 1 0</Rotation>
+<Translation>-0.052063651953825375 0.019453297353696719 -0.045447831809039468</Translation>
+</Transform>
+<Instance name="Cuerpo-1" uid="Cuerpo-1" grounded="true" entityUid="Cuerpo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0019502443900001228 -0.0050521681909718869 0.054699999999999992</Translation>
+</Transform>
+</Instance>
+<Instance name="Estrella-1" uid="Estrella-1" entityUid="Estrella*:*Predeterminado">
+<Transform>
+<Rotation>0.85179411301586827 -2.4205695948130348e-16 0.52387669258281644 -4.1218637254882848e-16 -1 2.081424267675674e-16 0.52387669258281644 -3.9322932736803911e-16 -0.85179411301586827</Rotation>
+<Translation>0.0081497556099999306 0.02419783180902807 0.054699999999999957</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SERVO-5" uid="SERVO-5" entityUid="SERVO">
+<Transform>
+<Rotation>-0.9621395588086028 0 -0.27255727723835882 0.27255727723835882 -7.0691733325533732e-16 -0.9621395588086028 -1.4310707389757406e-16 -1 6.9419498733357109e-16</Rotation>
+<Translation>0.0070450257491918291 0.15822155101407551 -0.0085521681909833131</Translation>
+</Transform>
+<Instance name="Cuerpo-1" uid="Cuerpo-1" grounded="true" entityUid="Cuerpo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0019502443900001262 -0.0050521681909718869 0.054699999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="Estrella-1" uid="Estrella-1" entityUid="Estrella*:*Predeterminado">
+<Transform>
+<Rotation>1.0000000000000002 -4.5680621278887269e-16 -3.5527136788005009e-15 -4.5680621278887437e-16 -1 -2.1978450739129869e-16 -3.5527136788005005e-15 2.1978450739129928e-16 -1.0000000000000002</Rotation>
+<Translation>0.0081497484897040395 0.024197834076864537 0.054700001278768492</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Antebrazo-1" uid="Antebrazo-1" entityUid="Antebrazo*:*Default">
+<Transform>
+<Rotation>0.96213955880860413 0.27255727723835327 0 -0.27255727723835327 0.96213955880860413 5.6644642841349079e-16 1.3154886498805119e-16 -5.5147075399910988e-16 1</Rotation>
+<Translation>0.051644709533849961 0.088734782939780696 0.020999999999988635</Translation>
+</Transform>
+</Instance>
+<Instance name="Angulo-3" uid="Angulo-3" entityUid="Angulo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.01736365195382537 -0.012496947036303418 -0.04000000000001136</Translation>
+</Transform>
+</Instance>
+<Instance name="grip2-1" uid="grip2-1" entityUid="grip2*:*Predeterminado">
+<Transform>
+<Rotation>-0.051402774892978974 -0.96213955880860258 0.26766625508063119 -0.18145412831453211 0.27255727723835926 0.944874028610177 -0.98205506671006737 0 -0.18859439532787009</Rotation>
+<Translation>-0.079443870577494177 0.18641880604344011 -0.02114157175747957</Translation>
+</Transform>
+</Instance>
+<Instance name="SERVO-6" uid="SERVO-6" entityUid="SERVO">
+<Transform>
+<Rotation>0 -0.9621395588086028 0.27255727723835882 -6.6797557205898501e-16 0.27255727723835882 0.9621395588086028 -1 -1.4488977118490612e-16 -6.5321585083080627e-16</Rotation>
+<Translation>-0.081176462565384494 0.069508234354739518 -0.0043502443900115687</Translation>
+</Transform>
+<Instance name="Estrella-1" uid="Estrella-1" entityUid="Estrella*:*Predeterminado">
+<Transform>
+<Rotation>0.98205506671006837 0 -0.18859439532786512 0 -1.0000000000000002 2.5023035737047896e-16 -0.18859439532786518 -2.7755575615628923e-16 -0.98205506671006859</Rotation>
+<Translation>0.0081497556100989625 0.024197831809072909 0.054700000000039231</Translation>
+</Transform>
+</Instance>
+<Instance name="Cuerpo-1" uid="Cuerpo-1" grounded="true" entityUid="Cuerpo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0019502443900001262 -0.0050521681909718869 0.054700000000000013</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Apoyo-2" uid="Apoyo-2" entityUid="Apoyo*:*Default">
+<Transform>
+<Rotation>1.1102230246251565e-16 1 0 -1 1.1102230246251565e-16 0 0 0 1</Rotation>
+<Translation>0.0026363480461746194 0.017503052963696628 -0.042000000000011362</Translation>
+</Transform>
+</Instance>
+<Instance name="Angulo-2" uid="Angulo-2" entityUid="Angulo*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.022637129288545381 -0.012496947036303423 0.024999999999988635</Translation>
+</Transform>
+</Instance>
+<Instance name="Apoyo-1" uid="Apoyo-1" entityUid="Apoyo*:*Default">
+<Transform>
+<Rotation>1.2246467991473532e-16 1 0 -1 1.2246467991473532e-16 0 0 0 1</Rotation>
+<Translation>0.0026363480461746198 0.017503052963696628 0.022999999999988637</Translation>
+</Transform>
+</Instance>
+<Instance name="Biceps-1" uid="Biceps-1" entityUid="Biceps*:*Default">
+<Transform>
+<Rotation>-0.52387669258281067 0.85179411301587149 0 -0.85179411301587149 -0.52387669258281067 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.022281724018029962 0.059545332201791729 0.04374999999998859</Translation>
+</Transform>
+</Instance>
+<Instance name="Biceps-2" uid="Biceps-2" entityUid="Biceps*:*Default">
+<Transform>
+<Rotation>-0.52387669258281166 0.85179411301587116 4.9760278466100984e-16 -0.85179411301587116 -0.52387669258281166 7.1464061313401974e-16 8.6940916823781708e-16 0 1</Rotation>
+<Translation>0.022281724018029987 0.059545332201791833 -0.021250000000011392</Translation>
+</Transform>
+</Instance>
+<Instance name="Angulo Gripper-1" uid="Angulo Gripper-1" entityUid="Angulo Gripper*:*Predeterminado">
+<Transform>
+<Rotation>-0.2725572772383601 3.4790684705252249e-16 -0.96213955880860247 -0.96213955880860247 0 0.2725572772383601 1.6908788626528947e-16 1 3.1369743650474578e-16</Rotation>
+<Translation>-0.069584874876031794 0.12307699987181296 -0.032750000000011339</Translation>
+</Transform>
+</Instance>
+<Instance name="Angulo Gripper-2" uid="Angulo Gripper-2" entityUid="Angulo Gripper*:*Predeterminado">
+<Transform>
+<Rotation>0.27255727723836037 4.7347724047558744e-16 -0.96213955880860225 0.96213955880860225 7.8081667228576632e-16 0.27255727723836037 8.803042760817868e-16 -1 -2.4273391703657063e-16</Rotation>
+<Translation>-0.069584874876030836 0.12307699987181471 0.027949999999988488</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidente10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-1</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0.025000000000000001 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-2</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0.025000000000000001 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-1</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0 0</Position>
+<Axis>0 -1 -1.2246467991473532e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-2</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0 0</Position>
+<Axis>0 -1 -1.2246467991473532e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-2</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Apoyo-1</Uid>
+</InstancePath>
+<Position>0.017000000000000001 0.019999999999999997 0.0019999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-1</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Apoyo-1</Uid>
+</InstancePath>
+<Position>0.017000000000000001 -0.019999999999999997 0.0019999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-1</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0.025000000000000001 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999707 0.022999999999999996 0.0019999999999999983</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-1</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0 0</Position>
+<Axis>0 -1 -1.2246467991473532e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-3</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0 0</Position>
+<Axis>0 -1 -1.2246467991473532e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-1</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0 0</Position>
+<Axis>0 -1 -1.2246467991473532e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-4</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0 0</Position>
+<Axis>0 -1 -1.2246467991473532e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-1</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-3</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-2</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-4</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-3</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Apoyo-2</Uid>
+</InstancePath>
+<Position>0.017000000000000001 -0.019999999999999993 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-4</Uid>
+</InstancePath>
+<Position>0 0.012999999999999999 -1.0000000000010001e-06</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Apoyo-2</Uid>
+</InstancePath>
+<Position>0.017000000000000001 0.02 0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-3</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0.025000000000000001 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-4</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0.025000000000000001 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999707 0.022999999999999996 0.0019999999999999983</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-1</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.02035 0.010499999999999999 -0.0092500000000000013</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-2</Uid>
+</InstancePath>
+<Position>0.0099999999999999707 0.023 0.0020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-2</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0.020349999999999993 0.010499999999999995 -0.0092499999999999995</Position>
+<Axis>2.4781763942525821e-16 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-1</Uid>
+</InstancePath>
+<Position>0.020350000000000007 -0.010250000000000002 0.0019999999999999983</Position>
+<Axis>-1.7048879370779434e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-1</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0 0 -0.01025</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-1</Uid>
+</InstancePath>
+<Position>-0.020349999999999993 0.010249999999999993 0.0019999999999999983</Position>
+<Axis>1 1.6924131472944462e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-1</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0.02035 -0.017500000000000002 0.01025</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-2</Uid>
+</InstancePath>
+<Position>0.020350000000000007 -0.010250000000000002 0.0020000000000000018</Position>
+<Axis>-1.7048879370779432e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-2</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0 0 -0.01025</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-2</Uid>
+</InstancePath>
+<Position>-0.020349999999999993 0.010249999999999992 0.0020000000000000018</Position>
+<Axis>1 1.692413147294446e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-2</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0.020349999999999993 -0.017499999999999995 0.01025</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo-3</Uid>
+</InstancePath>
+<Position>0.0069999999999999993 0.025000000000000001 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-2</Uid>
+</InstancePath>
+<Position>0.0099999999999999707 0.023 0.0020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-1</Uid>
+</InstancePath>
+<Position>-0.037499999999999992 0 0.0039999999999999966</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-2</Uid>
+</InstancePath>
+<Position>-0.037500000000000019 0 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-1</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-1</Uid>
+</InstancePath>
+<Position>0.037499999999999992 0 0.0039999999999999966</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-2</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-2</Uid>
+</InstancePath>
+<Position>0.037500000000000019 0 0.0040000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-2</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Biceps-2</Uid>
+</InstancePath>
+<Position>-0.037500000000000006 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-1</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Biceps-1</Uid>
+</InstancePath>
+<Position>-0.037499999999999992 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-2</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.0098996468407343483</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-2</Uid>
+</InstancePath>
+<Position>0.037500000000000006 0.0098999999999999713 0.0040000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-1</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.0098996468407343483</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-1</Uid>
+</InstancePath>
+<Position>0.037499999999999992 0.0098999999999999713 0.0039999999999999966</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distancia1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999707 0.022999999999999996 -0.0019999999999999983</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Apoyo-2</Uid>
+</InstancePath>
+<Position>0.0099999999999999707 0.023 -0.0020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincidente36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Biceps-1</Uid>
+</InstancePath>
+<Position>-0.037499999999999992 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-4</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-1</Uid>
+</InstancePath>
+<Position>-0.037499999999999992 0 0.0039999999999999966</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-4</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-1</Uid>
+</InstancePath>
+<Position>-0.047400000000000012 0 0.0039999999999999966</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-4</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0.0098996468407343413 0.0029999999999999957 1.0408340855860843e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-4</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.020349999999999993 0.010499999999999999 -0.0092499999999999805</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo-1</Uid>
+</InstancePath>
+<Position>-0.034065081596307084 -0.016 0.0040000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica22">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Biceps-2</Uid>
+</InstancePath>
+<Position>-0.037500000000000019 0 0.0040000000000000036</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Antebrazo2-2</Uid>
+</InstancePath>
+<Position>-0.049800000000000025 0 0.0040000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distancia2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo2-2</Uid>
+</InstancePath>
+<Position>-0.034065081596307098 -0.016000000000000028 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo-1</Uid>
+</InstancePath>
+<Position>-0.034065081596307084 -0.016 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincidente43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-4</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.020350000000000007 -0.017500000000000002 0.010250000000000009</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo-1</Uid>
+</InstancePath>
+<Position>0.020349999999999979 0.010250000000000023 0.0040000000000000001</Position>
+<Axis>-1 -3.3306690738754691e-16 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-4</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0 0 -0.010249999999999981</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo-1</Uid>
+</InstancePath>
+<Position>0.02035 -0.010249999999999981 0.0039999999999999966</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo2-2</Uid>
+</InstancePath>
+<Position>-0.034065081596307098 -0.016000000000000028 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-5</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.020350000000000007 0.010499999999999999 -0.0092500000000000082</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo2-2</Uid>
+</InstancePath>
+<Position>0.02035 0.010250000000000023 0.0040000000000000018</Position>
+<Axis>1.6653345369377356e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-5</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0 0 0.010249999999999995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Antebrazo2-2</Uid>
+</InstancePath>
+<Position>0.02035 0.010250000000000023 0.0040000000000000018</Position>
+<Axis>-1.0000000000000002 -3.3306690738754686e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-5</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0.020350000000000021 -0.017500000000000002 0.010250000000000009</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincidente50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-5</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0 0 -0.010250000000000009</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0 0 0.010249999999999995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Paralelo2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-5</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.020350000000000004 -0.017500000000000002 0.010250000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.02035 -0.017500000000000002 0.010250000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concéntrica25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-5</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo Gripper-1</Uid>
+</InstancePath>
+<Position>0 0.010000999999999999 -0.056000000000000029</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-5</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo Gripper-1</Uid>
+</InstancePath>
+<Position>0.013999999999999999 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica26">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-5</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0.0098996468407343413</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo Gripper-1</Uid>
+</InstancePath>
+<Position>-0.009900000000000006 0.010000999999999999 -0.056000000000000029</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0.024500000000000001 0.010500000000000009 0.0050000000000000044</Position>
+<Axis>-2.4781763942525821e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo Gripper-1</Uid>
+</InstancePath>
+<Position>-0.0050000000000000183 0.0058499999999999976 -0.070001000000000035</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0.020349999999999993 0.010500000000000009 -0.0092500000000000082</Position>
+<Axis>2.4781763942525811e-16 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo Gripper-1</Uid>
+</InstancePath>
+<Position>0.014000000000000012 0.0099999999999999985 0.0020000000000000157</Position>
+<Axis>0 1.1601689741814328e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Antebrazo-1</Uid>
+</InstancePath>
+<Position>-0.070000000000000007 0 0.0039999999999999966</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo Gripper-2</Uid>
+</InstancePath>
+<Position>0 0.010000999999999999 -0.056000000000000043</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.02035 0.010500000000000009 -0.0092500000000000082</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo Gripper-2</Uid>
+</InstancePath>
+<Position>0.013999999999999985 0.010000000000000002 0.0019999999999999879</Position>
+<Axis>0 1.1601689741814348e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica29">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.024500000000000001 0.010500000000000009 0.0050000000000000044</Position>
+<Axis>-2.4781763942525821e-16 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo Gripper-2</Uid>
+</InstancePath>
+<Position>0.0049999999999999906 0.0058499999999999976 -0.070001000000000049</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica30">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Robotic Arm</Uid>
+</InstancePath>
+<Position>-0.13056980704792959 0.12587619063419467 -0.012499646845200189</Position>
+<Axis>-0.98257566998503709 0.18586299457787611 -2.09340396099139e-15</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gripper-1</Uid>
+<Uid>pin2-1</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica31">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0.0098996468407343483 0.0029999999999999888 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper-1</Uid>
+<Uid>pin2-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Gripper-1</Uid>
+<Uid>grip51-2</Uid>
+</InstancePath>
+<Position>0 0.0040000000000000174 -0.014000000000000012</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>grip2-1</Uid>
+</InstancePath>
+<Position>0.0025000000000007811 0.0025000000000000022 -0.049840859118844782</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Gripper-1</Uid>
+<Uid>grip51-1</Uid>
+</InstancePath>
+<Position>0 0.0039999999999999897 -0.014000000000000012</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>grip2-1</Uid>
+</InstancePath>
+<Position>0.0025000000000007828 0.0025000000000000022 -0.067840859118844798</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper-1</Uid>
+<Uid>pin2-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000165 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grip2-1</Uid>
+</InstancePath>
+<Position>-0.0073999999999992232 0.0025000000000000022 -0.058840859118844777</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper-1</Uid>
+<Uid>pin2-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999888 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>grip2-1</Uid>
+</InstancePath>
+<Position>0.012400000000000782 0.0025000000000000022 -0.058840859118844818</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>-0.0098996468407343448 0.0029999999999999888 -1.6653345369377348e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gripper-1</Uid>
+<Uid>pin2-2</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000165 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Angulo-1</Uid>
+</InstancePath>
+<Position>0 0 0.013000000000000001</Position>
+<Axis>0 1 1.2246467991473532e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>base circle-3</Uid>
+</InstancePath>
+<Position>-0.032499999999999994 -0.020000000000000004 -0.010000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-3</Uid>
+</InstancePath>
+<Position>0 -1.0000000000044695e-06 0.012999999999999998</Position>
+<Axis>0 1 1.2246467991473535e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base circle-3</Uid>
+</InstancePath>
+<Position>0.032750000000000001 -0.020250000000000004 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Angulo-3</Uid>
+</InstancePath>
+<Position>0 -1.0000000000044695e-06 0.012999999999999998</Position>
+<Axis>0 1 1.2246467991473535e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base circle-3</Uid>
+</InstancePath>
+<Position>0.032750000000000001 -0.020250000000000004 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Angulo-2</Uid>
+</InstancePath>
+<Position>0 0 0.012999999999999998</Position>
+<Axis>0 1 1.2246467991473532e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>base circle-3</Uid>
+</InstancePath>
+<Position>-0.032749999999999994 0.019999999999999997 -0.010000000000000002</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>SERVO-6</Uid>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>-0.020349999999999997 0.013000000000000012 -0.0092500000000000082</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Angulo Gripper-2</Uid>
+</InstancePath>
+<Position>0.013999999999999985 0.010000000000000002 0</Position>
+<Axis>0 -1.1601689741814348e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="SERVO" uid="SERVO" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="SERVO.SLDASM" type="SolidWorks Assembly"/>
+<Constraints>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0.010100000000000005 0.026250000000000006 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0064999999999999988 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Cuerpo-1</Uid>
+</InstancePath>
+<Position>0.010100000000000005 0.026250000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Estrella-1</Uid>
+</InstancePath>
+<Position>0 0.0029999999999999992 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</Assembly>
+<Assembly name="Gripper" uid="Gripper" version="355">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Gripper.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Angulo Gripper" uid="Angulo Gripper*:*Predeterminado" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Angulo Gripper.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0043920263321546877</Mass>
+<CenterOfMass>0 -0.00033439761893582854 -0.029763589646716531</CenterOfMass>
+<Inertia>2.1788918902057261e-06 2.4445749541272433e-06 3.0638776417530747e-07 -8.9927975003111018e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Angulo Gripper_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Angulo" uid="Angulo*:*Predeterminado" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Angulo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00065343671309928597</Mass>
+<CenterOfMass>0 0.0066903766098634267 0.0066903766098634267</CenterOfMass>
+<Inertia>8.3279081908593929e-08 5.2697709300425649e-08 5.2697709300425622e-08 2.5039040242923265e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Angulo_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Antebrazo" uid="Antebrazo*:*Default" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Antebrazo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0098612698880186454</Mass>
+<CenterOfMass>-0.024906369117891066 0 0.002</CenterOfMass>
+<Inertia>9.3097854336723129e-07 9.9729936807969225e-06 1.087767550446277e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Antebrazo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Antebrazo2" uid="Antebrazo2*:*Default" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Antebrazo2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.007922069888018652</Mass>
+<CenterOfMass>-0.014515144376423667 0 0.002</CenterOfMass>
+<Inertia>8.6375294336723068e-07 5.5330866235897245e-06 6.3757140472555723e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Antebrazo2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Apoyo" uid="Apoyo*:*Default" version="151">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Apoyo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0088134319288669053</Mass>
+<CenterOfMass>0.0057591500877714153 0 0</CenterOfMass>
+<Inertia>2.6338322951334086e-06 3.0165199794749195e-06 5.6268497894646833e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Apoyo_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Biceps" uid="Biceps*:*Default" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Biceps.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013717443787667346</Mass>
+<CenterOfMass>0 0 0.002</CenterOfMass>
+<Inertia>1.0038077885991465e-06 1.1111499055079672e-05 1.2078726993578373e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Biceps_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Cuerpo" uid="Cuerpo*:*Predeterminado" version="411">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Cuerpo.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.030922478389059073</Mass>
+<CenterOfMass>0.00015922769196935515 0.0013641294702692172 4.9250520918865637e-09</CenterOfMass>
+<Inertia>4.5252001560364669e-06 5.4232733593722107e-06 7.8635528855059062e-06 -1.5818599687334314e-12 4.0720287048640135e-12 -5.8028694159834195e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Cuerpo_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.15686274509803921" g="0.15686274509803921" b="0.15686274509803921" a="1"/>
+<Diffuse r="0.12549019607843137" g="0.12549019607843137" b="0.12549019607843137" a="1"/>
+<Specular r="0.15686274509803921" g="0.15686274509803921" b="0.15686274509803921" a="1"/>
+<Emissive r="0.015686274509803921" g="0.015686274509803921" b="0.015686274509803921" a="1"/>
+<Shininess>0.90000000000000002</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Estrella" uid="Estrella*:*Predeterminado" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Estrella.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0012747774908422557</Mass>
+<CenterOfMass>0 0.0019166263872657221 0</CenterOfMass>
+<Inertia>5.5197389028586531e-08 1.0548051342140717e-07 5.5197389028586531e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Estrella_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gear 11" uid="Gear 11*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gear 11.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0021346781997980419</Mass>
+<CenterOfMass>-0.004801213178029535 0.0015 0</CenterOfMass>
+<Inertia>7.9791591899060612e-08 3.7464693063928696e-07 2.9805735603992342e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Gear 11_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gear 21" uid="Gear 21*:*Default" version="159">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gear 21.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0019623071417981721</Mass>
+<CenterOfMass>-0.015682514655175703 0.0015 0.0016640272928751527</CenterOfMass>
+<Inertia>1.0270609060757991e-07 3.4323784003073893e-07 2.434752101358563e-07 0 8.0577789714072952e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="Gear 21_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="base circle" uid="base circle*:*Default" version="147">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base circle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.094382082693634767</Mass>
+<CenterOfMass>-3.3285900924622478e-07 0 -0.005002359138228025</CenterOfMass>
+<Inertia>7.2384679222207561e-05 7.2051191297590282e-05 0.00014286224309779897 0 7.4114513293244388e-14 -6.2831853071789229e-10</Inertia>
+</MassProperties>
+<GeometryFile name="base circle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="grip11" uid="grip11*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grip11.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00040997499693855196</Mass>
+<CenterOfMass>0.015499999999999996 0.0015 0</CenterOfMass>
+<Inertia>1.1657172838782434e-09 5.7999603810730358e-08 5.7448849022259948e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="grip11_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="grip2" uid="grip2*:*Predeterminado" version="170">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grip2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0013148422040838977</Mass>
+<CenterOfMass>0.0025000000000008119 0.0012500000000000002 -0.05884085911884479</CenterOfMass>
+<Inertia>6.7374200966571057e-08 1.3277759161304933e-07 6.6773017942399004e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="grip2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="grip3" uid="grip3*:*Predeterminado" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grip3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0042065759034488961</Mass>
+<CenterOfMass>-0.00024517676939750979 0 -0.031272062624056268</CenterOfMass>
+<Inertia>1.3739500148582049e-06 1.9965666123018259e-06 6.2892646129879424e-07 0 3.4563213451517776e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="grip3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="grip41" uid="grip41*:*Default" version="186">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grip41.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.001427910764415662</Mass>
+<CenterOfMass>0.0015 0.0089121850744856863 -0.028416581741549023</CenterOfMass>
+<Inertia>4.622407879848219e-07 4.2444359930718384e-07 3.9939054824261514e-08 1.0382457927386339e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="grip41_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="grip51" uid="grip51*:*Default" version="186">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="grip51.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00079232296298563474</Mass>
+<CenterOfMass>0 0.00086813603670909446 -0.0092171903992490332</CenterOfMass>
+<Inertia>2.0243951470665477e-08 3.9985690888694764e-08 3.2154087119523353e-08 5.5959365849732184e-09 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="grip51_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pin1" uid="pin1*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pin1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00011309733552923262</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.476360409192155e-09 1.2723450247038671e-10 2.476360409192155e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pin1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Diffuse r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Specular r="0.044705884129393331" g="0.044705884129393331" b="0.044705884129393331" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.15000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pin2" uid="pin2*:*Predeterminado" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pin2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.0726937939843905e-05</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.9070038767667422e-10 1.3703914771428525e-10 1.9070038767667422e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pin2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69411764705882351" b="0.76470588235294112" a="1"/>
+<Specular r="0.33333333333333331" g="0.34705882352941175" b="0.38235294117647056" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
